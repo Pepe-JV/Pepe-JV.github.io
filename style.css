@@ -9,17 +9,20 @@ a{
 }
 header{
     display: flex;
-    height: 70px;
+    height: 150px;
     background-color: white;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-
-
+    flex-direction: column; 
+    text-align: center; 
+    padding: 30px; 
+    
 }
+
 .logo {
     display: flex;
     align-items: center;
+    
 }
 .logo img{
     height: 50px;
@@ -63,4 +66,11 @@ ul, ol {
 .nav li ul li ul {
     right:-140px;
     top:0px;
+}
+h1 {
+    font-size: 15px;
+}
+nav {
+    font-family: arial;
+    
 }
