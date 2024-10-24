@@ -15,21 +15,17 @@ header{
     align-items: center;
     flex-direction: column; 
     text-align: center; 
-    padding: 30px; 
+    padding: 10px; 
     
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    
-}
 .logo img{
-    height: 50px;
+    height: 70px;
     margin-right: 10px;
 }
 ul, ol {
     list-style:none;
+    margin-top: 0;
 }
 
 .nav > li {
@@ -39,7 +35,7 @@ ul, ol {
 .nav li a {
     
     background-color: rgb(255, 255, 255);
-    color: black;
+    color: rgb(5, 5, 5);
     text-decoration:none;
     padding:10px 12px;
     display:block;
@@ -67,10 +63,12 @@ ul, ol {
     right:-140px;
     top:0px;
 }
-h1 {
+h2 {
     font-size: 15px;
+    font-family: normal;
 }
 nav {
-    font-family: arial;
+    font-family: normal;
     
 }
+
