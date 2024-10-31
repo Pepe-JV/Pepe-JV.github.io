@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     font-family: sans-serif;
     margin: 0; 
@@ -73,4 +79,39 @@ nav {
     font-size: 15px;
     
 }
+.slider {
+    width: 1299px;
+    height: auto;
+    margin: 50 auto 0;
+    overflow: hidden;
+    animation: slide 15s infinite alternate ease-in-out;
+}
 
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+
+}
