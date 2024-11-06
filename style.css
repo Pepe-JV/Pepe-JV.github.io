@@ -1,13 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-
+.img{
+    max-width: 100%;
+}
 
 body {
     font-family: sans-serif;
     margin: 0; 
-    background-color: green;
+    
 }
 a{
     text-decoration: none;
@@ -81,13 +86,33 @@ nav {
     font-family: normal;
     font-size: 15px;
 }
-main {
-    width: 50%;
+h1{
+    font-size: 36px;
+    color: rgb(6, 73, 6);
+    font-family: "Merienda", cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
-#imagenfondo{
-    margin: auto;
-    width: 5%;
-    max-width: 100%;
+#titulo p{
+    font-size: 15px;
+    color: gray;
+    font-family: "Merienda", cursive;
+    display: flex;
+    justify-content: center;
+}
+#imagencabecera{
+    background-image: url(./img/espe3.jfif);
+    background-size: cover;
+    height: 85vh;
     
-
 }
+#logoinicio{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
