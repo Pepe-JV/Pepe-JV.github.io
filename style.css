@@ -14,7 +14,7 @@ body {
     margin: 0; 
     
 }
-a{
+header a{
     text-decoration: none;
     color: black;
    
@@ -31,7 +31,7 @@ header{
     
 }
 header h2 {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .logo img{
@@ -119,9 +119,60 @@ h1{
 #decoracion1{
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 #titulo {
     background-image: url(./img/fondo1.jfif);
     background-size: cover;
 }
+
+.boton a {
+    text-decoration: none;
+    color: rgb(6, 73, 6);
+    font-size: 25px;
+    margin: 50px;
+    border: 1px solid rgb(6, 73, 6);
+    padding: 5px 10px;
+
+ 
+}
+#atajos {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+section#noticias{
+    width: 100%;
+    margin: 100px 0 0 0;
+    
+
+}
+#noticias > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#noticias h2 {
+    font-size: 35px;
+    font-family: "Merienda", cursive;
+}
+#noticias article  {
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+#noticias img {
+    width: 100px;
+}
+#noticias .boton{
+    margin-top: 20px;
+}
+#noticias p {
+    margin-top: 20px;
+}
+
