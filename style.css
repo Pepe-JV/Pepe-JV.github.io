@@ -189,12 +189,12 @@ section#noticias{
 }
 
 footer{
-    background-image: url(./img/corona.webp);
-    background-size: cover;
+    background-color: white;
+    
     
 }
 footer div  a {
-    color: white;
+    color: rgb(0, 0, 0);
     width: 300px;
     font-style: none;
     text-decoration: none;
@@ -206,5 +206,15 @@ footer div  a {
 footer div {
     display: flex;
     flex-direction: column;
+
     
+}
+#imagenf {
+    width: 100px;
+    padding-left: 560px;
+    
+}
+footer{
+    display: flex;
+    align-items: center;
 }
