@@ -140,13 +140,16 @@ h1{
 #atajos {
     display: flex;
     justify-content: center;
+    padding-bottom: 35px;
     
    
 }
 section#noticias{
-    width: 100%;
-    margin: 100px 0 0 0;
+    width: 90%;
+    margin: auto;
     background-color: rgb(243, 242, 242);
+    
+    
     
 
 }
