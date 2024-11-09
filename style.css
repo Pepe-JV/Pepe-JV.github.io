@@ -120,6 +120,12 @@ h1{
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+    height: 140px;
+}
+#decoracion2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
 .titulo {
@@ -183,7 +189,8 @@ section#noticias{
 }
 
 footer{
-    background-color: rgb(6, 73, 6);
+    background-image: url(./img/corona.webp);
+    background-size: cover;
     
 }
 footer div  a {
