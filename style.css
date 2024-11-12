@@ -1,23 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 
-*{
+*{  
     margin: 0;
     padding: 0;
 }
-.img{
+.img{                        /*CSS PARA EL HEADER (NAV + H2)*/
     max-width: 100%;
 }
-
 body {
     font-family: sans-serif;
-    margin: 0; 
-    
+    margin: 0;   
 }
 header a{
     text-decoration: none;
-    color: black;
-   
+    color: black; 
 }
 header{
     display: flex;
@@ -28,66 +25,55 @@ header{
     flex-direction: column; 
     text-align: center; 
     padding: 10px; 
-    
+    position: sticky;
+    top: 0;
 }
 header h2 {
     padding-bottom: 10px;
+    font-size: 15px;
+    font-family: normal;
 }
-
 .logo img{
     height: 70px;
-    margin-right: 10px;
-    
+    margin-right: 10px;  
 }
 ul, ol {
     list-style:none;
     margin-top: 0;
 }
-
 .nav > li {
     float:left;
 }
-
 .nav li a {
-    
     background-color: rgb(255, 255, 255);
     color: rgb(5, 5, 5);
     text-decoration:none;
     padding:10px 12px;
     display:block;
 }
-
 .nav li a:hover {
     background-color: rgb(189, 183, 183);
 }
-
 .nav li ul {
     display:none;
     position:absolute;
     min-width:140px;
 }
-
 .nav li:hover > ul {
     display:block;
 }
-
 .nav li ul li {
     position:relative;
 }
-
 .nav li ul li ul {
     right: -140px;
     top:0px;
-}
-h2 {
-    font-size: 15px;
-    font-family: normal;
 }
 nav {
     font-family: normal;
     font-size: 15px;
 }
-h1{
+h1{                                        /*CSS PARA LA PRIMERA SECTION DEL MAIN*/
     font-size: 36px;
     color: rgb(6, 73, 6);
     font-family: "Merienda", cursive;
@@ -110,7 +96,7 @@ h1{
     height: 85vh;
     
 }
-#logoinicio{
+#logoinicio{                             /*CSS PARA LA SEGUNDA SECTION DEL MAIN*/
     height: 70px;
     display: flex;
     justify-content: center;
@@ -127,7 +113,6 @@ h1{
     justify-content: center;
     padding-bottom: 30px;
 }
-
 .titulo {
     background-image: url(./img/fondo1.jfif);
     background-size: cover;
@@ -139,9 +124,8 @@ h1{
     margin: 50px;
     border: 1px solid rgb(6, 73, 6);
     padding: 5px 10px;
-
 }
-#atajos {
+#atajos {                          /*CSS PARA LA SECCION DE ATAJOS DEL MAIN*/
     display: flex;
     justify-content: center;
     padding-bottom: 35px;
@@ -153,68 +137,76 @@ section#noticias{
     width: 90%;
     margin: auto;
     background-color: rgb(243, 242, 242);
-    
-    
-    
-
 }
-#noticias > div {
+
+  #noticias {                 /*CSS PARA NOTICIAS  */
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-}
-
-#noticias h2 {
-    font-size: 35px;
-    font-family: "Merienda", cursive;
-}
-#noticias article  {
+    flex-wrap: wrap;   
+  }
+  .noticia {
+    margin: 10px 10px;
     width: 30%;
-    border: 1px solid black;
-    text-align: center;
-    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .noticia:hover {
+    transform: translateY(-5px);
+  }
+  .imagen-noticia {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 200px;
+  }
+  .contenido-noticia {
+    padding: 15px;
+  }
+  .contenido-noticia h2 {
+    font-size: 1.5rem;
+    color: #333;
     margin: 10px 0;
-}
-#noticias img {
-    width: 100px;
-}
-#noticias .boton{
-    margin-top: 20px;
-}
-#noticias .boton a:hover {
-    background-color: rgb(189, 183, 183);
-}
-#noticias p {
-    margin-top: 20px;
-}
-
-footer{
-    background-color: white;
-    
-    
-}
-footer div  a {
+  }
+  .contenido-noticia .resumen {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  .leer-mas {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: rgb(6, 73, 6);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  .leer-mas:hover {
+    background-color: #0056b3;
+  }                    
+footer div  a {                  /*CSS PARA EL FOOTER*/
     color: rgb(0, 0, 0);
     width: 300px;
     font-style: none;
     text-decoration: none;
-    padding: 15px;
-    
-
-
+    padding: 15px;   
 }
 footer div {
     display: flex;
     flex-direction: column;
-
-    
 }
 #imagenf {
     width: 100px;
-    padding-left: 560px;
-    
+    padding-left: 580px;
+    mix-blend-mode: multiply;
 }
 footer{
     display: flex;
     align-items: center;
+    background-color: rgb(6, 73, 6)
 }
