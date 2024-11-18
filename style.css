@@ -223,6 +223,29 @@ footer{
     align-items: center;
     background-color: rgb(6, 73, 6)
 }
- 
 /*PÁGINA HERMANDAD-JUNTA DE GOBIERNO*/
-
+section#junta{
+    width: 80%;
+    margin: 25px auto;
+}
+#junta > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#junta article {
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0;
+}
+#junta img{
+    width: 60px;
+}
+#junta h2{
+    color: rgb(6, 73, 6);
+}
+.correo{
+    color: red;
+}
