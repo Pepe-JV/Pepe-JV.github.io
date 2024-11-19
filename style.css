@@ -224,6 +224,17 @@ footer{
     background-color: rgb(6, 73, 6)
 }
 /*PÁGINA HERMANDAD-JUNTA DE GOBIERNO*/
+#iniciojunta{
+    background-color: rgb(6, 73, 6);
+    height: 100px;
+}
+#iniciojunta h2{
+    padding-top: 25px;
+    color: white;
+    font-family: "Merienda", cursive;
+    display: flex;
+    justify-content: center;
+}
 section#junta{
     width: 80%;
     margin: 25px auto;
@@ -243,9 +254,32 @@ section#junta{
 #junta img{
     width: 60px;
 }
-#junta h2{
-    color: rgb(6, 73, 6);
-}
 .correo{
     color: red;
+}
+section#hermanosmayores{
+    width: 80%;
+    margin: 25px auto;
+    padding-top: 5x;
+}
+#hermanosmayores > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#hermanosmayores table{
+    padding: 10px;
+}
+#hermanosmayores table td {
+    padding: 20px;
+    margin: 200px;
+    width: 1000px; 
+}
+#hermanosmayores h2{
+    color: rgb(6, 73, 6);
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+#hermanosmayores table {
+    border-collapse: collapse;
 }
