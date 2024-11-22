@@ -28,6 +28,7 @@ header{
     padding: 10px; 
     position: sticky;
     top: 0;
+    z-index: 99;
 }
 header h2 {
     padding-bottom: 10px;
@@ -224,16 +225,16 @@ footer{
     background-color: rgb(6, 73, 6)
 }
 /*PÁGINA HERMANDAD-JUNTA DE GOBIERNO*/
-#iniciojunta{
+.iniciopagina{
     background-color: rgb(6, 73, 6);
-    height: 100px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#iniciojunta h2{
-    padding-top: 25px;
+.iniciopagina h2{
     color: white;
     font-family: "Merienda", cursive;
-    display: flex;
-    justify-content: center;
 }
 section#junta{
     width: 80%;
@@ -282,4 +283,27 @@ section#hermanosmayores{
 }
 #hermanosmayores table {
     border-collapse: collapse;
+}
+/*CSS PARA LA PAGINA DE HISTORIA*/
+#historia{
+    width: 60%;
+    margin: 25px auto;
+    font-family: open Sans, arial, Sans serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7em;
+    padding-top: 50px;
+}
+.fototexto{
+    display: flex;
+    align-items: center;
+}
+.fototexto img{
+    margin-left: 10px;                   
+    height: auto;          
+}
+#imagenhistoria img {
+    padding-top: 20px;
+    width: 100%;
 }
