@@ -92,6 +92,7 @@ h1{                                        /*CSS PARA LA PRIMERA SECTION DEL MAI
     justify-content: center;
     margin-bottom: 15px;
 }
+
 #imagencabecera{
     background-image: url(./img/espe3.jfif);
     background-size: cover;
@@ -114,10 +115,6 @@ h1{                                        /*CSS PARA LA PRIMERA SECTION DEL MAI
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-}
-.titulo {
-    background-image: url(./img/diseño/fondo1.jfif);
-    background-size: cover;
 }
 .boton a {
     text-decoration: none;
@@ -227,14 +224,17 @@ footer{
 /*PÁGINA HERMANDAD-JUNTA DE GOBIERNO*/
 .iniciopagina{
     background-color: rgb(6, 73, 6);
-    height: 150px;
+    height: 275px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("./img/fondotitulo.png");
+    background-size: cover;
 }
 .iniciopagina h2{
     color: white;
-    font-family: "Merienda", cursive;
+    font-family: normal;
+    font-size: 40px;
 }
 section#junta{
     width: 80%;
@@ -306,4 +306,40 @@ section#hermanosmayores{
 #imagenhistoria img {
     padding-top: 20px;
     width: 100%;
+}
+/*CSS PAGINA CORONACION*/
+#coronacion{
+    width: 60%;
+    margin: 25px auto;
+    font-family: open Sans, arial, Sans serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7em;
+    
+}
+#coronacion div {
+    display : flex;
+    justify-content: center;
+    padding: 20px;
+}
+#coronacion h3{
+    padding-top: 50px;
+    display: flex;
+    font-family: "Merienda", cursive;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+}
+/*CSS PARA REGLAS*/
+#reglas{
+    display: flex;
+    justify-content: center;
+}
+.documento{
+
+    padding-top: 100px;      
+    width: 60%;
+    height: 1000px; /* Ajusta la altura según lo necesario */
+    width: 1000px;
 }
