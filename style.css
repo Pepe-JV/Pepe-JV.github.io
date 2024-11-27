@@ -231,7 +231,7 @@ footer{
     background-image: url("./img/fondotitulo.png");
     background-size: cover;
 }
-.iniciopagina h2{
+.iniciopagina h1{
     color: white;
     font-family: normal;
     font-size: 40px;
@@ -331,15 +331,36 @@ section#hermanosmayores{
     color: black;
     font-size: 25px;
 }
-/*CSS PARA REGLAS*/
+/*CSS PARA REGLAS Y SECRETARÍA*/
 #reglas{
     display: flex;
     justify-content: center;
 }
 .documento{
-
     padding-top: 100px;      
     width: 60%;
     height: 1000px; /* Ajusta la altura según lo necesario */
     width: 1000px;
+}
+
+#secretaria {
+    width: 60%;
+    margin: 25px auto;
+    font-family: open Sans, arial, Sans serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+#primertexto{
+    padding-top: 50PX;
+}
+#secretaria a{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 20px;
+}
+#primerenlace{
+    padding-top: 20px;
 }
