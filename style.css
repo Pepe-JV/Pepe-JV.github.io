@@ -231,6 +231,27 @@ footer{
     background-image: url("./img/fondotitulo.png");
     background-size: cover;
 }
+#juntagobiernofoto {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+ #juntagobiernofoto img {
+    width: 750px;
+}
+#logoeditado {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+ #logoeditado img{
+    width: 500px;
+}
 .iniciopagina h1{
     color: white;
     font-family: normal;
@@ -239,21 +260,19 @@ footer{
 section#junta{
     width: 80%;
     margin: 25px auto;
-}
-#junta > div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#junta article {
+
+#junta div {
     width: 30%;
-    border: 1px solid black;
     text-align: center;
-    padding: 5px;
-    margin: 10px 0;
+    padding: 10px;
+    margin: auto;
 }
 #junta img{
-    width: 60px;
+    width: 250px;
 }
 .correo{
     color: red;
