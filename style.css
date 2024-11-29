@@ -242,14 +242,14 @@ footer{
  #juntagobiernofoto img {
     width: 750px;
 }
-#logoeditado {
+.logoeditado {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: auto;
     align-items: center;
 }
- #logoeditado img{
+ .logoeditado img{
     width: 500px;
 }
 .iniciopagina h1{
@@ -264,44 +264,14 @@ section#junta{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 #junta div {
-    width: 30%;
+    width: 25%;
     text-align: center;
-    padding: 10px;
+    padding: 35px;
     margin: auto;
 }
 #junta img{
     width: 250px;
-}
-.correo{
-    color: red;
-}
-section#hermanosmayores{
-    width: 80%;
-    margin: 25px auto;
-    padding-top: 5x;
-}
-#hermanosmayores > div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-#hermanosmayores table{
-    padding: 10px;
-}
-#hermanosmayores table td {
-    padding: 20px;
-    margin: 200px;
-    width: 1000px; 
-}
-#hermanosmayores h2{
-    color: rgb(6, 73, 6);
-    padding-bottom: 10px;
-    padding-top: 100px;
-}
-#hermanosmayores table {
-    border-collapse: collapse;
 }
 /*CSS PARA LA PAGINA DE HISTORIA*/
 #historia{
@@ -334,8 +304,7 @@ section#hermanosmayores{
     color: #666;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.7em;
-    
+    line-height: 1.7em;  
 }
 #coronacion div {
     display : flex;
@@ -351,17 +320,17 @@ section#hermanosmayores{
     font-size: 25px;
 }
 /*CSS PARA REGLAS Y SECRETARÍA*/
-#reglas{
-    display: flex;
-    justify-content: center;
-}
+
 .documento{
     padding-top: 100px;      
     width: 60%;
     height: 1000px; /* Ajusta la altura según lo necesario */
     width: 1000px;
 }
-
+#reglas{
+    display: flex;
+    justify-content: center;
+}
 #secretaria {
     width: 60%;
     margin: 25px auto;
@@ -369,10 +338,13 @@ section#hermanosmayores{
     color: #666;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.7em;
+    line-height: 1.7em; 
 }
 #primertexto{
     padding-top: 50PX;
+}
+.correo {
+    color: red;
 }
 #secretaria a{
     display: flex;
@@ -382,4 +354,58 @@ section#hermanosmayores{
 }
 #primerenlace{
     padding-top: 20px;
+}
+ /*CSS PARA LA VOCALIA DE JUVENTUD*/
+ #juventudfoto{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+ }
+ #juventudfoto img{
+    width: 750px;
+ }
+ #juventud {
+    width: 60%;
+    margin: 25px auto;
+    font-family: open Sans, arial, Sans serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7em
+ }
+#juventud .correo{
+    font-style: none;
+    text-decoration: none;
+    color: red;
+}
+
+/*CSS PARA VOCALIA COSTALEROS*/
+
+#costalerosfoto{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+ }
+ #costalerosfoto img{
+    width: 750px;
+ }
+ #costaleros {
+    width: 60%;
+    margin: 25px auto;
+    font-family: open Sans, arial, Sans serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7em
+ }
+#costaleros .correo{
+    font-style: none;
+    text-decoration: none;
+    color: red;
 }
