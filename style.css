@@ -421,7 +421,6 @@ section#junta{
  }
  #bandafoto img{
     width: 750px;
-    
  }
  #bandas article {
     width: 30%;
@@ -448,4 +447,16 @@ section#junta{
     font-family: open Sans, arial, Sans serif;
     width: 60%;
     margin: 25px auto;
+}
+#historiabandas p{
+    padding: 10px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7em
+}
+#historiabandas {
+    width: 60%;
+    margin: 25px auto;
+    font-family: open Sans, arial, Sans serif;  
 }
