@@ -430,24 +430,22 @@ section#junta{
     padding: 15px;
     margin: 30px;
  }
- #bandas{
-    width: 60%;
-    margin: 25px auto;
-    font-family: open Sans, arial, Sans serif;
-    color: #666;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.7em
- }
 #bandas article h3{
     color: black;
     padding-bottom: 5px;
 }
 #bandas article p{
     padding: 10px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7em
 }
 #infobandas{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: open Sans, arial, Sans serif;
+    width: 60%;
+    margin: 25px auto;
 }
