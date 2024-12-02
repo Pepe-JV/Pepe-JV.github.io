@@ -324,7 +324,7 @@ section#junta{
 .documento{
     padding-top: 100px;      
     width: 60%;
-    height: 1000px; /* Ajusta la altura según lo necesario */
+    height: 1000px; /* Ajusto la altura según lo necesario */
     width: 1000px;
 }
 #reglas{
@@ -381,9 +381,7 @@ section#junta{
     text-decoration: none;
     color: red;
 }
-
 /*CSS PARA VOCALIA COSTALEROS*/
-
 #costalerosfoto{
     padding-top: 30px;
     display: flex;
@@ -551,9 +549,7 @@ section#junta{
     margin: auto;
     align-items: center;
 }
-
 /*CSS PARA ACCESO HERMANOS*/
-
 section#accesohermanos{
     width: 100%;
     height: 70vh;
