@@ -93,6 +93,16 @@ h1{                                        /*CSS PARA LA PRIMERA SECTION DEL MAI
     margin-bottom: 15px;
 }
 
+#redessociales{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px
+}
+#redessociales div a img{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50px;
+}
 #imagencabecera{
     background-image: url(./img/espe3.jfif);
     background-size: cover;
@@ -196,10 +206,18 @@ section#noticias{                /*CSS PARA NOTICIAS  */
     border-radius: 4px;
     font-weight: bold;
     transition: background-color 0.3s;
-  }
+ }
   .leer-mas:hover {
     background-color: #0056b3;
-  }                    
+  }  
+  /*CSS PARA EL MAPA*/
+#mapa iframe{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
 footer div  a {                  /*CSS PARA EL FOOTER*/
     color: rgb(253, 253, 253);
     width: 300px;
