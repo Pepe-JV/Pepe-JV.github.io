@@ -90,7 +90,7 @@ h1{                                        /*CSS PARA LA PRIMERA SECTION DEL MAI
     font-family: "Merienda", cursive;
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #redessociales{
@@ -159,7 +159,6 @@ section#noticias{                /*CSS PARA NOTICIAS  */
     margin: auto;
     background-color: rgb(243, 242, 242);
 }
-
   #noticias {                 
     display: flex;
     align-items: center;
