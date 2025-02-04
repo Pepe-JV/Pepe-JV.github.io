@@ -759,3 +759,9 @@ div#iniciar form{
         flex-direction: column;
     }
 }
+@media screen and (max-width: 422px ){
+    h1 {
+        font-size: 20px;
+    }
+    
+}
