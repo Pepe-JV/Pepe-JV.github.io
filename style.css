@@ -751,3 +751,11 @@ div#iniciar form{
         width: 100%;
     }
 }
+@media screen and (max-width: 450px ){
+    h1 {
+        font-size: 30px;
+    }
+    #atajos{
+        flex-direction: column;
+    }
+}
