@@ -705,3 +705,49 @@ div#iniciar form{
     margin-top: 20px;
     color: #666;
 }
+
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1200px ){
+    #imagenf{
+        padding-left: 1px;
+    }
+}
+@media screen and (max-width: 1150px ){
+    #noticia{
+        display: flex;
+        flex-direction: column;
+    }
+    .noticia{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 992px ){
+    #imagencabecera{
+        background-position-x: 80%;
+    }
+}
+@media screen and (max-width: 900px ){
+    #noticia{
+        display: flex;
+        flex-direction: column;
+    }
+    .noticia{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px ){
+    #imagenf{
+        padding-left: 1px;
+    }
+}
+@media screen and (max-width: 576px ){
+    #noticias{
+        display: flex;
+        flex-direction: column;
+    }
+    .noticia {
+        width: 100%;
+    }
+}
